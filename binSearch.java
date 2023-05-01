@@ -25,8 +25,7 @@ public class binSearch {
             {
                 System.out.println("the number is at "+(mid+1)+" position");
                 break;
-                
-            }
+           }
             if(array[mid]<num)
             {
                 start = mid+1;
@@ -35,10 +34,7 @@ public class binSearch {
             {
                 end = mid-1;
             }
-            
-
-
-        }
+      }
 
 
     }
